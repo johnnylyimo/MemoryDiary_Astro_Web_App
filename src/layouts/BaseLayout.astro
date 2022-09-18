@@ -15,6 +15,6 @@ const {title, description,tailwindBgColor} = Astro.props as LayoutProps;
         <BaseHead seoTitle= {title} seoDescription={description} />
     </head>
     <body class={tailwindBgColor}>
-        
+        <slot /> 
     </body>
 </html>
