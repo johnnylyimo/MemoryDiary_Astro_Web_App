@@ -13,7 +13,7 @@ Astro is an all-in-one web framework for building fast, content-focused websites
 | `Customizable`: Tailwind, MDX, and 100+ other integrations to choose from  |
 | `UI-agnostic`: Supports React, Preact, Svelte, Vue, Solid, Lit and more        
 
-For more visit:https://astro.build/
+For more visit: https://astro.build/
 
 
 ## MemoryDiary this time is Web App developed using Astro and TailwindCSS 
