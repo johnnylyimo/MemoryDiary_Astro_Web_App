@@ -1,45 +1,31 @@
-# Astro Starter Kit: Minimal
 
-```
-npm create astro@latest -- --template minimal
-```
+# Coming Soon, the site is under construction. Stay tuned!
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+## Getting Started with Astro Framework
+Astro is an all-in-one web framework for building fast, content-focused websites.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+| Key Features                | 
+| :--------------------- |
+| `Component Islands`: A new web architecture for building faster websites |
+| `Server-first API design`: Move expensive hydration off of your users’ devices |
+| `Zero JS, by default`: No JavaScript runtime overhead to slow you down.      |
+| `Edge-ready`: Deploy anywhere, even a global edge runtime like Deno or Cloudflare |
+| `Customizable`: Tailwind, MDX, and 100+ other integrations to choose from  |
+| `UI-agnostic`: Supports React, Preact, Svelte, Vue, Solid, Lit and more        
 
-## 🚀 Project Structure
+it comes with features like Component Islands: A new web architecture for building faster websites, Server-first API design: Move expensive hydration off of your users’ devices, Zero JS, by default: No JavaScript runtime overhead to slow you down, Edge-ready: Deploy anywhere, even a global edge runtime like Deno or Cloudflare, Customizable: Tailwind, MDX, and 100+ other integrations to choose from, UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more.
+For more visit:https://astro.build/
 
-Inside of your Astro project, you'll see the following folders and files:
 
-```
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## MemoryDiary this time is Web App developed using Astro and TailwindCSS 
+MemoryDiary App allow you record day to day memories that happen in your life. It pretty amazing app. Previous it was developed for Android mobile App using Flutter, then Flutter Web App and Flutter Desktop App; all these projects are here,  you can find them in my GitHub repositories..
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+print (" SHARING IS CARING ")
 
-Any static assets, like images, can be placed in the `public/` directory.
+fmt.Println (" THROUGH CODING LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ")
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `npm install`          | Installs dependencies                            |
-| `npm run dev`          | Starts local dev server at `localhost:3000`      |
-| `npm run build`        | Build your production site to `./dist/`          |
-| `npm run preview`      | Preview your build locally, before deploying     |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+# Please Support me
+I will going on developing apps and share them here. If you like what am doing and the good spirit i have of sharing with you; please support me click buy me a coffee below. 
+<br />
+<a href="https://www.buymeacoffee.com/johnnylyimo" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
