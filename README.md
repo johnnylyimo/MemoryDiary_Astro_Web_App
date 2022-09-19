@@ -13,18 +13,19 @@ Astro is an all-in-one web framework for building fast, content-focused websites
 | `Customizable`: Tailwind, MDX, and 100+ other integrations to choose from  |
 | `UI-agnostic`: Supports React, Preact, Svelte, Vue, Solid, Lit and more        
 
-it comes with features like Component Islands: A new web architecture for building faster websites, Server-first API design: Move expensive hydration off of your users’ devices, Zero JS, by default: No JavaScript runtime overhead to slow you down, Edge-ready: Deploy anywhere, even a global edge runtime like Deno or Cloudflare, Customizable: Tailwind, MDX, and 100+ other integrations to choose from, UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more.
 For more visit:https://astro.build/
 
 
 ## MemoryDiary this time is Web App developed using Astro and TailwindCSS 
 MemoryDiary App allow you record day to day memories that happen in your life. It pretty amazing app. Previous it was developed for Android mobile App using Flutter, then Flutter Web App and Flutter Desktop App; all these projects are here,  you can find them in my GitHub repositories..
 
-
+```
 print (" SHARING IS CARING ")
+```
 
+```
 fmt.Println (" THROUGH CODING LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ")
-
+```
 # Please Support me
 I will going on developing apps and share them here. If you like what am doing and the good spirit i have of sharing with you; please support me click buy me a coffee below. 
 <br />
