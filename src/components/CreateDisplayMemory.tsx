@@ -13,7 +13,9 @@ export const CreateDisplayMemory = () => {
                     Anytime something positive happens, make a note of it and come back to it later
                 </p>
                 <form  className="p-2 mt-6">
-                    <label htmlFor="message" className=""></label>
+                    <label htmlFor="message" className="">
+                        Write new memory below
+                    </label>
                 </form>
 
             </section>
