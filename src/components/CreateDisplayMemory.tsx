@@ -16,7 +16,7 @@ export const CreateDisplayMemory = () => {
                     <label htmlFor="message" className="block mb-2 text-md font-medium text-gray-900">
                         Write new memory below
                     </label>
-                    <textarea rows={4}  className="block ">
+                    <textarea rows={4}  className="block w-full ">
 
                     </textarea>
                 </form>
