@@ -25,7 +25,9 @@ export const CreateDisplayMemory = () => {
                     </label>
                     </textarea>
                 </form>
-
+            </section>
+            <section className="">
+                
             </section>
 
         </main>
