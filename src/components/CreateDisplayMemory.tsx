@@ -6,7 +6,7 @@ export const CreateDisplayMemory = () => {
                 <h1 className="text-2xl font-bold uppercase pt-4 tracking-wide">
                     World of the day
                 </h1>
-
+                <p className=""></p>
             </section>
 
         </main>
