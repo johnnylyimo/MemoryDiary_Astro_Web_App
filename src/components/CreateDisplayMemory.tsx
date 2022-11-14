@@ -26,7 +26,7 @@ export const CreateDisplayMemory = () => {
                     </textarea>
                 </form>
             </section>
-            <section className="max-w-screen-md lg:w-full ">
+            <section className="max-w-screen-md lg:w-full mx-auto ">
 
             </section>
 
