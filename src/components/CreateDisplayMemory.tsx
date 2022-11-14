@@ -17,18 +17,18 @@ export const CreateDisplayMemory = () => {
                         Write new memory below
                     </label>
                     <textarea rows={4}  className="block w-full text-base p-2 text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none" placeholder='Write new memory here ...'>
+                    </textarea>
                     <button className="text-white text-2xl font-medium bg-[#ac5eb9dc] mt-6 px-3 py-2 rounded-lg hover:bg-[#800080]">
                         Save
                     </button>
                     <label  className="block text-xl text-center font-medium mt-4">
                         Remember the good times
                     </label>
-                    </textarea>
                 </form>
             </section>
             <section className="max-w-screen-md lg:w-full mx-auto rounded-lg p-2">
                 <h1 className="text-2xl font-bold text-start">
-                Highlights
+                    Highlights
                 </h1>
             </section>
 
