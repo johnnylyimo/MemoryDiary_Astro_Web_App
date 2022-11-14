@@ -20,7 +20,7 @@ export const CreateDisplayMemory = () => {
                     <button className="text-white text-2xl font-medium bg-[#ac5eb9dc] mt-6 px-3 py-2 rounded-lg hover:bg-[#800080]">
                         Save
                     </button>
-                    <label  className="block ">
+                    <label  className="block text-xl ">
                         Remember the good times
                     </label>
                     </textarea>
