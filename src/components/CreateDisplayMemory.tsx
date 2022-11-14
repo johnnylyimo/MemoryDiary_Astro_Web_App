@@ -28,7 +28,7 @@ export const CreateDisplayMemory = () => {
             </section>
             <section className="max-w-screen-md lg:w-full mx-auto rounded-lg p-2">
                 <h1 className="">
-                    
+                Highlights
                 </h1>
             </section>
 
