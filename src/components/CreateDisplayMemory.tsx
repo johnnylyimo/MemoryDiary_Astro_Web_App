@@ -10,7 +10,7 @@ export const CreateDisplayMemory = () => {
                     Today will be better than yesterday
                 </p>
                 <p className="">
-                    
+                    Anytime something positive happens, make a note of it and come back to it later
                 </p>
 
             </section>
