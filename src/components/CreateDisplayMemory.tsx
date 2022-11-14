@@ -21,7 +21,7 @@ export const CreateDisplayMemory = () => {
                         Save
                     </button>
                     <label  className="">
-                        
+                        Remember the good times
                     </label>
                     </textarea>
                 </form>
