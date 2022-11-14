@@ -1,7 +1,7 @@
 
 export const CreateDisplayMemory = () => {
     return (
-        <main className="w-full ">
+        <main className="w-full h-auto">
 
         </main>
     )
