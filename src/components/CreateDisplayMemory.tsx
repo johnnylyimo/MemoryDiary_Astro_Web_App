@@ -18,7 +18,7 @@ export const CreateDisplayMemory = () => {
                     </label>
                     <textarea rows={4}  className="block w-full text-base p-2 text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none" placeholder='Write new memory here ...'>
                     <button className="">
-                        
+                        Save
                     </button>
 
                     </textarea>
