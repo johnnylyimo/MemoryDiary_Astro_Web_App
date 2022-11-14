@@ -9,6 +9,10 @@ export const CreateDisplayMemory = () => {
                 <p className="text-xl font-bold">
                     Today will be better than yesterday
                 </p>
+                <p className="">
+                    
+                </p>
+
             </section>
 
         </main>
