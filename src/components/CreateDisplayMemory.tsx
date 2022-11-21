@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {MdNotes, } from 'react-icons/md'
+import {MdNotes, MdEdit} from 'react-icons/md'
 
 export const CreateDisplayMemory = () => {
     const memories = [
@@ -52,9 +52,7 @@ export const CreateDisplayMemory = () => {
                             setEditMemoryPopUp(true)
                             setInputedMemory({id:id, memory: memory,title:''})
                         }}>
-                        {/* <Icon name="sort-variant" height="24px"  width="24px" />  */}
-                        <p>{memory}</p>
-                        {/* <Icon name="mdi:pencil" height="24px"  width="24px" /> */}
+                   
                         </div>
                     ))
                 }
