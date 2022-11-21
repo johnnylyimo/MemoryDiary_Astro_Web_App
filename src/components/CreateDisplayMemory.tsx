@@ -1,6 +1,10 @@
 import {useState} from 'react'
 
 export const CreateDisplayMemory = () => {
+    const memories = [
+        {id: '1',memory: 'Tomorrow  jogging'},
+        {id: '1',memory: 'Next day after tomorrow  work'}
+    ]
     const [inputedMemory, setInputedMemory] = useState({
         id:"",
         title: "",
@@ -40,6 +44,12 @@ export const CreateDisplayMemory = () => {
                 <h1 className="text-2xl font-bold text-start">
                     Highlights
                 </h1>
+
+                {
+                    memories.map(({memory, id}) =>(
+                        
+                    ))
+                }
             </section>
 
         </main>
