@@ -47,7 +47,7 @@ export const CreateDisplayMemory = () => {
 
                 {
                     memories.map(({memory, id}) =>(
-                        <div key={id} className="w-full bg-white">
+                        <div key={id} className="w-full bg-white flex">
 
                         </div>
                     ))
