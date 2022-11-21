@@ -4,7 +4,6 @@ import {MdNotes, MdEdit} from 'react-icons/md'
 export const CreateDisplayMemory = () => {
     const memories = [
         {id: '1',memory: 'Tomorrow  jogging'},
-        {id: '1',memory: 'Next day after tomorrow  work'}
     ]
     const [inputedMemory, setInputedMemory] = useState({
         id:"",
