@@ -52,7 +52,7 @@ export const CreateDisplayMemory = () => {
                             setEditMemoryPopUp(true)
                             setInputedMemory({id:id, memory: memory,title:''})
                         }}>
-                            <MdNotes />
+                            <MdNotes size={25}/>
                         </div>
                     ))
                 }
