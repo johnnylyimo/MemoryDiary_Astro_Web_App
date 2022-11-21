@@ -54,7 +54,7 @@ export const CreateDisplayMemory = () => {
                         }}>
                             <MdNotes size={25}/>
                             <p>{memory}</p>
-                            <MdEdit  />
+                            <MdEdit size={25} />
                         </div>
                     ))
                 }
