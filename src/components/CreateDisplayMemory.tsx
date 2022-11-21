@@ -47,7 +47,9 @@ export const CreateDisplayMemory = () => {
 
                 {
                     memories.map(({memory, id}) =>(
-                        
+                        <div className="">
+                            
+                        </div>
                     ))
                 }
             </section>
