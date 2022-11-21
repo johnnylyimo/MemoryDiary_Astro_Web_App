@@ -47,7 +47,9 @@ export const CreateDisplayMemory = () => {
 
                 {
                     memories.map(({memory, id}) =>(
-                        <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black rounded-md p-2 m-2 cursor-pointer" onClick={}>
+                        <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black rounded-md p-2 m-2 cursor-pointer" onClick={() => {
+                            setEditMemoryPopUp(true)
+                        }}>
 
                         </div>
                     ))
