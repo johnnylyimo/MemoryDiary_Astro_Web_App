@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import { Icon } from 'astro-icon'
 
 export const CreateDisplayMemory = () => {
     const memories = [
@@ -51,6 +52,7 @@ export const CreateDisplayMemory = () => {
                             setEditMemoryPopUp(true)
                             setInputedMemory({id:id, memory: memory,title:''})
                         }}>
+                            
 
                         </div>
                     ))
