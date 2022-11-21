@@ -58,6 +58,12 @@ export const CreateDisplayMemory = () => {
                         </div>
                     ))
                 }
+
+
+            {/* Edit Popup */}
+            {
+            editMemoryPopUp ? <div className=""></div> : null
+            }
             </section>
 
         </main>
