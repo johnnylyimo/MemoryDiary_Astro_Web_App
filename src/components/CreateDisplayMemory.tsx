@@ -53,7 +53,7 @@ export const CreateDisplayMemory = () => {
                             setInputedMemory({id:id, memory: memory,title:''})
                         }}>
                             <MdNotes size={25}/>
-                            <p></p>
+                            <p>{memory}</p>
                         </div>
                     ))
                 }
