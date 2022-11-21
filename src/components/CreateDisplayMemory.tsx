@@ -54,7 +54,7 @@ export const CreateDisplayMemory = () => {
                         }}>
                             <MdNotes size={25}/>
                             <p>{memory}</p>
-                            <MdEdit size={25} className='cursor-pointer'/>
+                            <MdEdit size={25} className='cursor-pointer' onClick={}/>
                         </div>
                     ))
                 }
