@@ -74,7 +74,7 @@ export const CreateDisplayMemory = () => {
                     }}>Save
                     </button>
                     <button className="">
-                        
+                        Close
                     </button>
                 </div>
             </div> : null
