@@ -66,14 +66,13 @@ export const CreateDisplayMemory = () => {
                 </textarea>
                 <div className="w-full flex justify-around">
                     <button className="my-5 w-auto px-8 h-10 bg-red-600 font-semibold text-white rounded-md shadow-md hover:shadow-lg" onClick={()=>{
-                    
                     }}>
                         Delete
                     </button>
                     <button className="my-5 w-auto px-8 h-10 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:shadow-lg" onClick={()=>{
                     }}>Save
                     </button>
-                    <button className="">
+                    <button className="bg-[#ac5eb9dc] ">
                         Close
                     </button>
                 </div>
