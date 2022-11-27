@@ -61,7 +61,7 @@ export const CreateDisplayMemory = () => {
 
             {/* Edit Popup */}
             {
-            editMemoryPopUp ? <div className="absolute top-[35%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#E1BEE7] w-[90%] md:w-[45%] flex justify-center items-center flex-col rounded-lg shadow-xl h-auto p-2 mx-auto">
+            editMemoryPopUp ? <div className="absolute top-[55%] md:top-[35%] left-[50%] translate-x-[-50%] translate-y-[-50%] bg-[#E1BEE7] w-[90%] md:w-[45%] flex justify-center items-center flex-col rounded-lg shadow-xl h-auto p-2 mx-auto">
                 <textarea rows={4} value={inputedMemory.memory || ""} placeholder='Write new memory here ...' className='block p-2 w-full text-base text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none' onChange={({target})=> setInputedMemory({...inputedMemory, memory: target.value})}>
                 </textarea>
                 <div className="w-full flex justify-around">
