@@ -68,7 +68,7 @@ export const CreateDisplayMemory = () => {
                     <button className="my-5 w-auto px-8 h-10 bg-red-600 font-semibold text-white rounded-md shadow-md hover:shadow-lg" onClick={()=>{
                     
                     }}>
-                       
+                        Delete
                     </button>
                 </div>
             </div> : null
