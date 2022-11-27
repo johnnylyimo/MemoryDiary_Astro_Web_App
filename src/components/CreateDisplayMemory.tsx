@@ -61,7 +61,7 @@ export const CreateDisplayMemory = () => {
 
             {/* Edit Popup */}
             {
-            editMemoryPopUp ? <div className="absolute top-[35%]"></div> : null
+            editMemoryPopUp ? <div className="absolute top-[35%] left-[50%] "></div> : null
             }
             </section>
 
