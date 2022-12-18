@@ -23,6 +23,7 @@
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
+    "@types/node": "^18.11.17",
     "prisma": "^4.7.1"
   }
 }
