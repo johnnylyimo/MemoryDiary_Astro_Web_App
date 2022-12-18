@@ -13,4 +13,5 @@ datasource db {
 
 model Memory {
   id String @id @default(cuid())
+  title String?
 }
