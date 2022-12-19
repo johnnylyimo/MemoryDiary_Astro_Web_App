@@ -18,7 +18,9 @@ export async function get({ params, request }) {
     });
   }
 
-  if(!memories){
-    
+  if (!memories) {
+    return new Response(JSON.stringify("No Memories"), {
+      status: 500,
+    });
   }
 }
