@@ -28,5 +28,8 @@ export async function get({ params, request }) {
   // return all memories if there no exception
   return new Response(JSON.stringify(memories), {
     status: 200,
+    headers: {
+        "Content-Type": "application/json"
+      }
   });
 }
