@@ -11,5 +11,10 @@ export const post: APIRoute = async ({ request }) => {
         content,
       },
     });
+
+    return new Response(JSON.stringify(newMemory), {
+      status: 201,
+     
+    });
   } catch (error) {}
 };
