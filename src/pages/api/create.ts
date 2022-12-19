@@ -14,7 +14,9 @@ export const post: APIRoute = async ({ request }) => {
 
     return new Response(JSON.stringify(newMemory), {
       status: 201,
-     
+      headers: {
+        "Content-Type": "application/json",
+      },
     });
   } catch (error) {}
 };
