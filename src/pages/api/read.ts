@@ -17,4 +17,8 @@ export async function get({ params, request }) {
       status: 500,
     });
   }
+
+  if(!memories){
+    
+  }
 }
