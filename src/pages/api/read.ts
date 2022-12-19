@@ -6,6 +6,7 @@ export async function get({ params, request }) {
     memories = await prisma.memory.findMany({
       select: {
         id: true,
+        title: true,
       },
     });
   } catch (error) {}
