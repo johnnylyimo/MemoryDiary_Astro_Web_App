@@ -3,8 +3,6 @@ import { prisma } from "../../../utils/prisma";
 export async function get({ params, request }) {
   let memories: Memory[] = [];
   try {
-    
-  } catch (error) {
-    
-  }
+    memories = await prisma.memory.findMany();
+  } catch (error) {}
 }
