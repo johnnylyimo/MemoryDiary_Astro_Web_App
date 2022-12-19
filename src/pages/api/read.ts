@@ -8,6 +8,7 @@ export async function get({ params, request }) {
         id: true,
         title: true,
         content: true,
+        createdAt: true,
       },
     });
   } catch (error) {}
