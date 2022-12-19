@@ -18,5 +18,12 @@ export const post: APIRoute = async ({ request }) => {
         "Content-Type": "application/json",
       },
     });
-  } catch (error) {}
+  } catch (error) {
+    return new Response(
+      JSON.stringify("Unsuccesfully, new memory failed to be created"),
+      {
+        status: 400,
+      }
+    );
+  }
 };
