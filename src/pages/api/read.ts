@@ -7,6 +7,7 @@ export async function get({ params, request }) {
       select: {
         id: true,
         title: true,
+        content: true,
       },
     });
   } catch (error) {}
