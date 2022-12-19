@@ -18,9 +18,15 @@ export async function get({ params, request }) {
     });
   }
 
+  // if there no memories
   if (!memories) {
     return new Response(JSON.stringify("No Memories"), {
       status: 500,
     });
   }
+
+  // return all memories if there no exception
+  return new Response(JSON.stringify(memories), {
+    status: 200,
+  });
 }
