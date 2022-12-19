@@ -8,6 +8,7 @@ export const post: APIRoute = async ({ request }) => {
     newMemory = await prisma.memory.create({
       data: {
         title,
+        content,
       },
     });
   } catch (error) {}
