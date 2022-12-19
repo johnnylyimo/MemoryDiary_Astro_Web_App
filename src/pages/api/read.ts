@@ -12,5 +12,9 @@ export async function get({ params, request }) {
         updatedAt: true,
       },
     });
-  } catch (error) {}
+  } catch (error) {
+    return new Response(JSON.stringify("Internal Server Error"), {
+      status: 500,
+    });
+  }
 }
