@@ -15,7 +15,9 @@ export const CreateDisplayMemory = () => {
       const [isEmptyEditedMemory, setIsEmptyEditedMemory] = useState(false)
 
     // method to handle on adding new memory
-    const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{  }
+    const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{  
+        e.preventDefault()
+    }
 
     return (
         <main className="w-full h-auto flex flex-col lg:flex-row gap-8 text-center p-4">
