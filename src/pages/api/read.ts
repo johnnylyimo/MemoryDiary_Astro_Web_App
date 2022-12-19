@@ -9,6 +9,7 @@ export async function get({ params, request }) {
         title: true,
         content: true,
         createdAt: true,
+        updatedAt: true,
       },
     });
   } catch (error) {}
