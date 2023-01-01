@@ -16,6 +16,9 @@ export const CreateDisplayMemory = () => {
     // method to handle on adding new memory
     const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{  
         e.preventDefault()
+        if (inputedMemory.content !== ""){
+            
+        }
     }
 
 
