@@ -2,9 +2,8 @@ import {useState,FormEventHandler,useEffect} from 'react'
 import {MdNotes, MdEdit, MdLabel} from 'react-icons/md'
 
 export const CreateDisplayMemory = () => {
-    const memories = [
-        {id: '1',memory: 'Tomorrow  jogging'},
-    ]
+ 
+    const [memories] = 
     const [inputedMemory, setInputedMemory] = useState({
         id:"",
         title: "",
