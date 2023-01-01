@@ -18,6 +18,9 @@ export const CreateDisplayMemory = () => {
         e.preventDefault()
     }
 
+    const fetchMemories = async () => {
+        
+    }
 
 
     return (
