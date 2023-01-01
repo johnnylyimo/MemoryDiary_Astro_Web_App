@@ -1,4 +1,4 @@
-import {useState,FormEventHandler,useEffect} from 'react'
+import {useState,FormEventHandler} from 'react'
 import {MdNotes, MdEdit, MdLabel} from 'react-icons/md'
 
 export const CreateDisplayMemory = () => {
@@ -21,6 +21,9 @@ export const CreateDisplayMemory = () => {
     const fetchMemories = async () => {
         await fetch('/api/read')
         .then(res => res.json())
+        .then(data =>{
+            setMemories(data)
+        })
     }
 
 
