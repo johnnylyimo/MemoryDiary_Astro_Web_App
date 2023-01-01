@@ -20,6 +20,7 @@ export const CreateDisplayMemory = () => {
 
     const fetchMemories = async () => {
         await fetch('/api/read')
+        .then(res => res.json())
     }
 
 
