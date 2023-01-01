@@ -3,7 +3,7 @@ import {MdNotes, MdEdit, MdLabel} from 'react-icons/md'
 
 export const CreateDisplayMemory = () => {
  
-    const [memories, setMemories] 
+    const [memories, setMemories] = useState([])
     const [inputedMemory, setInputedMemory] = useState({
         id:"",
         title: "",
