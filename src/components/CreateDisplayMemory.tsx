@@ -1,4 +1,4 @@
-import {useState,FormEventHandler} from 'react'
+import {useState,FormEventHandler,useEffect} from 'react'
 import {MdNotes, MdEdit, MdLabel} from 'react-icons/md'
 
 export const CreateDisplayMemory = () => {
@@ -8,7 +8,7 @@ export const CreateDisplayMemory = () => {
     const [inputedMemory, setInputedMemory] = useState({
         id:"",
         title: "",
-        memory: ""
+        content: ""
       });
 
       const [editMemoryPopUp, setEditMemoryPopUp]=useState(false);
@@ -18,6 +18,8 @@ export const CreateDisplayMemory = () => {
     const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{  
         e.preventDefault()
     }
+
+
 
     return (
         <main className="w-full h-auto flex flex-col lg:flex-row gap-8 text-center p-4">
