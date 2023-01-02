@@ -17,7 +17,8 @@ export const CreateDisplayMemory = () => {
     const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{  
         e.preventDefault()
         if (inputedMemory.content !== ""){
-            
+            await fetch('/api/create', {}
+           
         }
     }
 
@@ -47,7 +48,7 @@ export const CreateDisplayMemory = () => {
                 <p className="text-xl font-medium mt-6">
                     Anytime something positive happens, make a note of it and come back to it later
                 </p>
-                <form  className="p-2 mt-6">
+                <form  className="p-2 mt-6" >
                     <label htmlFor="message" className="block mb-2 text-md font-medium text-gray-900">
                         Write new memory below
                     </label>
