@@ -17,7 +17,9 @@ export const CreateDisplayMemory = () => {
     const onSubmitMemory:FormEventHandler<HTMLFormElement> = async (e) =>{  
         e.preventDefault()
         if (inputedMemory.content !== ""){
-            await fetch('/api/create', {}
+            await fetch('/api/create', {
+                method: "POST",  
+            }
            
         }
     }
