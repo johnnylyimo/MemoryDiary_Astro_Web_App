@@ -20,6 +20,7 @@ export const CreateDisplayMemory = () => {
             await fetch('/api/create', {
                 method: "POST", 
                 headers: {
+                    "Content-Type": "application/json",
                     
                   }, 
             }
