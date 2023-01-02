@@ -29,7 +29,7 @@ export const CreateDisplayMemory = () => {
                   })
             })
             setInputedMemory({id:'',content: '', title:''});
-           
+             // router.replace(router.asPath)
         }
     }
 
@@ -59,7 +59,7 @@ export const CreateDisplayMemory = () => {
                 <p className="text-xl font-medium mt-6">
                     Anytime something positive happens, make a note of it and come back to it later
                 </p>
-                <form  className="p-2 mt-6" >
+                <form  className="p-2 mt-6"  onSubmit={onSubmitMemory}>
                     <label htmlFor="message" className="block mb-2 text-md font-medium text-gray-900">
                         Write new memory below
                     </label>
