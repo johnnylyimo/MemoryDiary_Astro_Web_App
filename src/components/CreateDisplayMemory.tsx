@@ -63,7 +63,8 @@ export const CreateDisplayMemory = () => {
                     <label htmlFor="message" className="block mb-2 text-md font-medium text-gray-900">
                         Write new memory below
                     </label>
-                    <textarea rows={4} value={inputedMemory.content || ""}  className="block w-full text-base p-2 text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none" placeholder='Write new memory here ...' onChange={({target})=> setInputedMemory({...inputedMemory, content: target.value})}>
+                    <textarea rows={4}  value={inputedMemory.content || ""}
+  className="block w-full text-base p-2 text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none" placeholder='Write new memory here ...'  onChange={({target})=> setInputedMemory({...inputedMemory, content: target.value})}>
                     </textarea>
                     <button type='submit' className="text-white text-2xl font-medium bg-[#ac5eb9dc] mt-6 px-3 py-2 rounded-lg hover:bg-[#800080]">
                         Save
@@ -105,7 +106,10 @@ export const CreateDisplayMemory = () => {
                     <button className="my-5 w-auto px-8 h-10 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:shadow-lg" onClick={()=>{
                     }}>Save
                     </button>
-                    <button className="bg-[#ac5eb9dc] my-5 h-10 px-8 font-semibold text-white shadow-md rounded-lg hover:bg-[#800080]" onClick={()=>setEditMemoryPopUp(false)}>
+                    <button className="bg-[#ac5eb9dc] my-5 h-10 px-8 font-semibold text-white shadow-md rounded-lg hover:bg-[#800080]" onClick={()=>{
+                        setEditMemoryPopUp(false)
+                        setInputedMemory({id:'', title:'', content:''})
+                    }}>
                         Close
                     </button>
                 </div>
