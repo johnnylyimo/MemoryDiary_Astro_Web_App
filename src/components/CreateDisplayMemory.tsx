@@ -18,7 +18,10 @@ export const CreateDisplayMemory = () => {
         e.preventDefault()
         if (inputedMemory.content !== ""){
             await fetch('/api/create', {
-                method: "POST",  
+                method: "POST", 
+                headers: {
+                    
+                  }, 
             }
            
         }
