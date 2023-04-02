@@ -8,6 +8,9 @@ export const del: APIRoute = async ({ request }) => {
             where:{id},
         });
 
+        return new Response(JSON.stringify({DeletedSuccessfully:'Memory has been Deleted successfuly'}),{
+        })
+
     } catch (error) {
         
     }
