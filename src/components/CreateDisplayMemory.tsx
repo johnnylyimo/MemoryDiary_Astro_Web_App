@@ -29,7 +29,6 @@ export const CreateDisplayMemory = () => {
                   })
             })
             setInputedMemory({id:'',content: '', title:''});
-            window.location.reload();
         }
     }
 
@@ -48,7 +47,6 @@ export const CreateDisplayMemory = () => {
                 })
             })
             setInputedMemory({id:'',content: '', title:''});
-            window.location.reload();
             setEditMemoryPopUp(false)
         }
      }
@@ -66,7 +64,7 @@ export const CreateDisplayMemory = () => {
 
     useEffect(() =>{
         fetchMemories()
-    },[])
+    },[inputedMemory.content])
 
     return (
         <main className="w-full h-auto flex flex-col lg:flex-row gap-8 text-center p-4">
