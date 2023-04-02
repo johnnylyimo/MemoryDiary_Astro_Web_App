@@ -18,7 +18,9 @@ export const put: APIRoute = async ({ request }) => {
     } catch (error) {
         return new Response(
             JSON.stringify("Unsuccesfully, new memory failed to be created"),
-           
+            {
+              status: 400,
+            }
           );
     }
 }
