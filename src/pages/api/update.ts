@@ -12,7 +12,7 @@ export const put: APIRoute = async ({ request }) => {
             where:{id},
             data:{content}
         });
-        
+        return new Response(JSON.stringify(memoryToBeUpdated))
     } catch (error) {
         
     }
