@@ -48,6 +48,7 @@ export const CreateDisplayMemory = () => {
                 })
             })
             setInputedMemory({id:'',content: '', title:''});
+            window.location.reload();
         }
      }
 
