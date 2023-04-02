@@ -4,5 +4,5 @@ import { prisma } from "../../../utils/prisma";
 
 
 export const put: APIRoute = async ({ request }) => {
-    
+    const { id,  } = await request.json();
 }
