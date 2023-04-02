@@ -47,7 +47,7 @@ export const CreateDisplayMemory = () => {
                     content: inputedMemory.content,
                 })
             })
-            setInputedMemory({id:'',content: ''});
+            setInputedMemory({id:'',content: '', title:''});
         }
      }
 
