@@ -34,6 +34,15 @@ export const CreateDisplayMemory = () => {
     }
 
 
+    // method to handle on update existing memory
+    const onUpdateMemory= async() =>{ 
+        if (inputedMemory.content !== ""){
+            
+        }
+     }
+
+
+
     // method that fetch all memories from Backend
     const fetchMemories = async () => {
         await fetch('/api/read')
