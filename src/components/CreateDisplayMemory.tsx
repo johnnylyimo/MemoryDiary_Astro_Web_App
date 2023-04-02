@@ -56,6 +56,9 @@ export const CreateDisplayMemory = () => {
         if (inputedMemory.id !== ""){
             await fetch('/api/delete', {
                 method: "DELETE", 
+                headers: {
+                    "Content-Type": "application/json",
+                }, 
             })
         }
     }
