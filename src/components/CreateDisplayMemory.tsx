@@ -37,7 +37,9 @@ export const CreateDisplayMemory = () => {
     // method to handle on update existing memory
     const onUpdateMemory= async() =>{ 
         if (inputedMemory.content !== ""){
-            await fetch('/api/update', {})
+            await fetch('/api/update', {
+                method: "PUT", 
+            })
         }
      }
 
