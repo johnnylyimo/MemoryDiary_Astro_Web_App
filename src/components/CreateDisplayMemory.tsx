@@ -44,6 +44,7 @@ export const CreateDisplayMemory = () => {
                 }, 
                 body: JSON.stringify({
                     id: inputedMemory.id,
+                    content: inputedMemory.content,
                 })
             })
         }
