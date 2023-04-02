@@ -29,7 +29,7 @@ export const CreateDisplayMemory = () => {
                   })
             })
             setInputedMemory({id:'',content: '', title:''});
-             // router.replace(router.asPath)
+            window.location.reload();
         }
     }
 
