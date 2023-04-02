@@ -17,7 +17,7 @@ export const put: APIRoute = async ({ request }) => {
         })
     } catch (error) {
         return new Response(
-            JSON.stringify("Unsuccesfully, new memory failed to be created"),
+            JSON.stringify("Unsuccesfully, this memory failed to be updated"),
             {
               status: 400,
             }
