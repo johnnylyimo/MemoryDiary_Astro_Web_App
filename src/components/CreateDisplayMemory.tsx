@@ -39,6 +39,9 @@ export const CreateDisplayMemory = () => {
         if (inputedMemory.content !== ""){
             await fetch('/api/update', {
                 method: "PUT", 
+                headers: {
+                    "Content-Type": "application/json",
+                }, 
             })
         }
      }
