@@ -8,6 +8,9 @@ export const put: APIRoute = async ({ request }) => {
     let memoryToBeUpdated: Memory;
 
     try {
+        memoryToBeUpdated = await prisma.memory.update({
+            
+        })
         
     } catch (error) {
         
