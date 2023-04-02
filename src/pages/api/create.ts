@@ -1,5 +1,6 @@
 import type { APIRoute } from "astro";
 import { Memory } from "@prisma/client";
+import { prisma } from "../../../utils/prisma";
 
 export const post: APIRoute = async ({ request }) => {
   const { title, content } = await request.json();
