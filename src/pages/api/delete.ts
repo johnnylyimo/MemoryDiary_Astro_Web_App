@@ -16,6 +16,7 @@ export const del: APIRoute = async ({ request }) => {
         return new Response(
             JSON.stringify("Unsuccesfully, existing memory failed to be deleted"),
             {
+              status: 400,
             }
         )
     }
