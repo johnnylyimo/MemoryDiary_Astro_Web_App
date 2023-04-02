@@ -51,6 +51,10 @@ export const CreateDisplayMemory = () => {
         }
      }
 
+    // method to handle on delete a memory
+    const onDeleteMemory= async() =>{ 
+        
+    }
 
 
     // method that fetch all memories from Backend
