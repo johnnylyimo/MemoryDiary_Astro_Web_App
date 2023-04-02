@@ -64,6 +64,7 @@ export const CreateDisplayMemory = () => {
                 })
             });
             setInputedMemory({id:'',content: '', title:''});
+            setEditMemoryPopUp(false)
         }
     }
 
