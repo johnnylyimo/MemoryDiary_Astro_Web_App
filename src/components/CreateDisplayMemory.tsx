@@ -59,6 +59,9 @@ export const CreateDisplayMemory = () => {
                 headers: {
                     "Content-Type": "application/json",
                 }, 
+                body: JSON.stringify({
+                    id: inputedMemory.id,
+                })
             })
         }
     }
