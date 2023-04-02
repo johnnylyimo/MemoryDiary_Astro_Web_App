@@ -125,7 +125,7 @@ export const CreateDisplayMemory = () => {
                         Delete
                     </button>
                     <button className="my-5 w-auto px-8 h-10 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:shadow-lg" onClick={()=>{
-                    }}>Save
+                    }}>Update
                     </button>
                     <button className="bg-[#ac5eb9dc] my-5 h-10 px-8 font-semibold text-white shadow-md rounded-lg hover:bg-[#800080]" onClick={()=>{
                         setEditMemoryPopUp(false)
