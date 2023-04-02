@@ -5,7 +5,7 @@ export const del: APIRoute = async ({ request }) => {
     const { id } = await request.json();
     try {
         await prisma.memory.delete({
-            
+            where:{id},
         });
 
     } catch (error) {
