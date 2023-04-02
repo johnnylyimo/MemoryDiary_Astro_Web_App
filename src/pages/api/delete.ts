@@ -13,6 +13,10 @@ export const del: APIRoute = async ({ request }) => {
         })
 
     } catch (error) {
-        
+        return new Response(
+            JSON.stringify("Unsuccesfully, existing memory failed to be deleted"),
+            {
+            }
+        )
     }
 }
