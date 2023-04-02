@@ -54,7 +54,9 @@ export const CreateDisplayMemory = () => {
     // method to handle on delete a memory
     const onDeleteMemory= async() =>{ 
         if (inputedMemory.id !== ""){
-            await fetch('/api/delete', {})
+            await fetch('/api/delete', {
+                method: "DELETE", 
+            })
         }
     }
 
