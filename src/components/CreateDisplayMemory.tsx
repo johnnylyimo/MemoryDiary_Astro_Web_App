@@ -134,8 +134,7 @@ export const CreateDisplayMemory = () => {
                 <textarea rows={4} value={inputedMemory.content || ""} placeholder='Write new memory here ...' className='block p-2 w-full text-base text-gray-900 bg-[#ce93d8] rounded-lg border-4 border-[#ac5eb9dc] focus:outline-none' onChange={({target})=> setInputedMemory({...inputedMemory, content: target.value})}>
                 </textarea>
                 <div className="w-full flex justify-around">
-                    <button className="my-5 w-auto px-8 h-10 bg-red-600 font-semibold text-white rounded-md shadow-md hover:shadow-lg" onClick={()=>{
-                    }}>
+                    <button className="my-5 w-auto px-8 h-10 bg-red-600 font-semibold text-white rounded-md shadow-md hover:shadow-lg" onClick={onDeleteMemory}>
                         Delete
                     </button>
                     <button className="my-5 w-auto px-8 h-10 bg-blue-600 text-white font-semibold rounded-md shadow-md hover:shadow-lg" onClick={onUpdateMemory}>Update
