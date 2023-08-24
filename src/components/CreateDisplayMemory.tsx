@@ -109,14 +109,14 @@ export const CreateDisplayMemory = () => {
                     </label>
                 </form>
             </section>
-            <section className="w-[98%] lg:w-full mx-auto rounded-lg p-2 border border-red-500">
+            <section className="w-[98%] lg:w-full mx-auto rounded-lg p-2">
                 <h1 className="text-2xl font-bold text-start">
                     Highlights
                 </h1>
 
                 {
                     memories.map(({content, id}) =>(
-                        <div key={id} className="w-full bg-white flex justify-between space-x-4 text-black rounded-md p-2 m-2 cursor-pointer" onClick={() => {
+                        <div key={id} className="w-auto bg-white flex justify-between space-x-4 text-black rounded-md p-2 m-2 cursor-pointer" onClick={() => {
                             setEditMemoryPopUp(true)
                             setInputedMemory({id:id, content: content,title:''})
                         }}>
